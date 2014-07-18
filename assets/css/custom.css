@@ -24,17 +24,6 @@ body {
   margin: auto;
 }
 
-#clock-centralize {
-  display: block;
-  margin: auto;
-  width: 780px;
-}
-
-#clock-centralize > h1 {
-  font-size: 75px;
-  text-align: center;
-}
-
 .yellow {
   background-color: #e4d980;
 }
