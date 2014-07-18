@@ -195,11 +195,11 @@ body {
   color: #ddd;
 }
 
-#calculator li#op {
+#calculator li.op {
   background-color: #7f8c8d;
 }
 
-#calculator li#op:active {
+#calculator li.op:active {
   background-color: #555;
 }
 
