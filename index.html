@@ -7,146 +7,52 @@
   <script src="assets/js/jquery.js"></script>
 </head>
 <body>
-  <div class="widget yellow group">
-    <h1>Welcome to Matthew Farmer's</h1>
-    <h1>Cavalcade of JavaScript</h1>
-    <p>Feel free to browse a random assortment of widgets, tools, and just-for-fun mini projects made with HTML, CSS, and JavaScript.</p>
-    <p>Each widget comes with a link to the widget's open source repository on GitHub.</p>
-    <p>Jump to a specific widget</p>
-    <select>
-      <option>Calculator</option>
-      <option>Timezone Clocks</option>
-      <option>Mini Piano</option>
-      <option>Twitter Mood Ring</option>
-      <option>Tic Tac Toe</option>
-      <option>MineSweeper</option>
-    </select>
-  </div>
+  <div class="container group">
+    <div id="calculator">
+      <div class="group">
+        <h1>Matthew Farmer</h1>
+        <h1 id="brand">Calculator</h1>
+      </div>
+      <div id="screen">
+        <h1 id="output">0</h1>
+      </div>
+      <div id="input-panel" class="group">
+        <ul>
+          <li id="ac" data-id="AC"><h1>AC</h1></li>
+          <li id="op" data-id="+/-"><h1>+/-</h1></li>
+          <li id="op" data-id="%"><h1>%</h1></li>
+          <li id="op" data-id="/"><h1>/</h1></li>
+          <li data-id="7"><h1>7</h1></li>
+          <li data-id="8"><h1>8</h1></li>
+          <li data-id="9"><h1>9</h1></li>
+          <li id="op" data-id="*"><h1>*</h1></li>
+          <li data-id="4"><h1>4</h1></li>
+          <li data-id="5"><h1>5</h1></li>
+          <li data-id="6"><h1>6</h1></li>
+          <li id="op" data-id="-"><h1>-</h1></li>
+          <li data-id="1"><h1>1</h1></li>
+          <li data-id="2"><h1>2</h1></li>
+          <li data-id="3"><h1>3</h1></li>
+          <li id="op" data-id="+"><h1>+</h1></li>
+          <li id="double" data-id="0"><h1>0</h1></li>
+          <li id="op" data-id="."><h1>.</h1></li>
+          <li id="op" data-id="="><h1>=</h1></li>
+        </ul>
+      </div>
+    </div>
 
-  <div class="widget wet-asphalt group">
-    <div class="container group">
-      <div id="calculator">
-        <div class="group">
-          <h1>Matthew Farmer</h1>
-          <h1 id="brand">Calculator</h1>
-        </div>
-        <div id="screen">
-          <h1 id="output">0</h1>
-        </div>
-        <div id="input-panel" class="group">
-          <ul>
-            <li id="ac" data-id="AC"><h1>AC</h1></li>
-            <li id="op" data-id="+/-"><h1>+/-</h1></li>
-            <li id="op" data-id="%"><h1>%</h1></li>
-            <li id="op" data-id="/"><h1>/</h1></li>
-            <li data-id="7"><h1>7</h1></li>
-            <li data-id="8"><h1>8</h1></li>
-            <li data-id="9"><h1>9</h1></li>
-            <li id="op" data-id="*"><h1>*</h1></li>
-            <li data-id="4"><h1>4</h1></li>
-            <li data-id="5"><h1>5</h1></li>
-            <li data-id="6"><h1>6</h1></li>
-            <li id="op" data-id="-"><h1>-</h1></li>
-            <li data-id="1"><h1>1</h1></li>
-            <li data-id="2"><h1>2</h1></li>
-            <li data-id="3"><h1>3</h1></li>
-            <li id="op" data-id="+"><h1>+</h1></li>
-            <li id="double" data-id="0"><h1>0</h1></li>
-            <li id="op" data-id="."><h1>.</h1></li>
-            <li id="op" data-id="="><h1>=</h1></li>
-          </ul>
-        </div>
+    <div class="right">
+      <h1 id="jumbo">The Calculator.</h1>
+      <p>A calculator interface built with HTML, CSS, and jQuery.</p>
+
+      <div class="links group">
+        <a href="assets/js/calculator.js">View Code</a>
+        <a href="assets/js/calculator.js">GitHub Repo</a>
       </div>
 
-      <div class="right">
-        <h1 id="jumbo">The Calculator.</h1>
-        <p>A calculator interface built with HTML, CSS, and jQuery.</p>
-
-        <div class="links group">
-          <a href="assets/js/calculator.js">View Code</a>
-          <a href="assets/js/calculator.js">GitHub Repo</a>
-        </div>
-
-      </div>
     </div>
   </div>
 
-  <div class="widget teal group">
-    <div class="container group">
-
-      <div id="clock-centralize">
-        <h1>US Timezone Clocks</h1>
-
-        <div class="group">
-          <div class="timezone">
-            <h1>Honolulu</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="one">1</h2>
-              <h2 class="one">2</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-              <div class="hour-hand"></div>
-            </div>
-          </div>
-          <div class="timezone">
-            <h1>Juneau</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-            </div>
-          </div>
-          <div class="timezone">
-            <h1>San Francisco</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="group">
-          <div class="timezone">
-            <h1>Denver</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-              <div class="hour-hand"></div>
-            </div>
-          </div>
-          <div class="timezone">
-            <h1>Oklahoma City</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-            </div>
-          </div>
-          <div class="timezone">
-            <h1>New York</h1>
-            <div class="clock">
-              <h2 class="twelve">12</h2>
-              <h2 class="three">3</h2>
-              <h2 class="six">6</h2>
-              <h2 class="nine">9</h2>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      </div>
-
-  </div>
-
   <script src="assets/js/calculator.js"></script>
-  <script src="assets/js/clocks.js"></script>
 </body>
 </html>
